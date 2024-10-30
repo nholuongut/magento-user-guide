@@ -1,0 +1,291 @@
+---
+label: Sales
+pages:
+- label: Sales Menu
+  url: "/sales/sales-menu.html"
+- label: Point of Purchase
+  url: "/sales/point-of-purchase.html"
+  children:
+  - label: Instant Purchase
+    url: "/sales/checkout-instant-purchase.html"
+  - label: Quick Order
+    url: "/sales/quick-order.html"
+    edition: b2b-only
+  - label: Shopping Cart
+    url: "/sales/cart.html"
+    children:
+    - label: Cart Configuration
+      url: "/sales/cart-configuration.html"
+      children:
+      - label: My Cart Link
+        url: "/sales/cart-link.html"
+      - label: Mini Cart
+        url: "/sales/mini-cart.html"
+      - label: Redirect to Cart
+        url: "/sales/cart-redirect.html"
+      - label: Quote Lifetime
+        url: "/sales/cart-quote-lifetime.html"
+      - label: Minimum Order Amount
+        url: "/sales/cart-minimum-order-amount.html"
+      - label: Minimum Order Quantity
+        url: "/sales/minimum-order-qty.html"
+      - label: Cart Thumbnails
+        url: "/sales/cart-thumbnails.html"
+        edition: ee-only
+      - label: Gift Options
+        url: "/sales/gift-options.html"
+        children:
+        - label: Gift Wrap
+          url: "/sales/gift-wrap.html"
+          edition: ee-only
+        - label: Gift Options Tax
+          url: "/sales/gift-options-tax.html"
+          edition: ee-only
+    - label: Persistent Cart
+      url: "/sales/cart-persistent.html"
+      children:
+      - label: Persistent Cart Workflow
+        url: "/sales/cart-persistent-workflow.html"
+      - label: Configuring a Persistent Cart
+        url: "/sales/cart-persistent-configuration.html"
+    - label: Requesting a Quote
+      url: "/sales/quote-request.html"
+      edition: b2b-only
+    - label: Order by SKU
+      url: "/sales/order-by-sku.html"
+  - label: Shopping Assistance
+    url: "/sales/shopping-assistance.html"
+    children:
+    - label: Managing a Shopping Cart
+      url: "/sales/shopping-assisted-cart-manage.html"
+      edition: ee-only
+    - label: Creating an Order
+      url: "/customers/customer-account-create-order.html"
+    - label: Updating an Order
+      url: "/sales/order-update.html"
+  - label: Checkout
+    url: "/sales/checkout-process.html"
+    children:
+    - label: Checkout Options
+      url: "/sales/checkout-options.html"
+      children:
+      - label: Onepage Checkout
+        url: "/sales/checkout-onepage.html"
+      - label: Guest Checkout
+        url: "/sales/checkout-guest.html"
+      - label: Terms and Conditions
+        url: "/sales/terms-and-conditions.html"
+      - label: Address Search
+        url: "/sales/checkout-address-search.html"
+        edition: ee-only
+      - label: Payment Failed Emails
+        url: "/sales/checkout-payment-failed-emails.html"
+    - label: Checkout Totals Sort Order
+      url: "/sales/checkout-totals-sort-order.html"
+- label: Order Management
+  url: "/sales/order-management.html"
+  children:
+  - label: Quotes
+    url: "/sales/quotes.html"
+    edition: b2b-only
+    children:
+    - label: Quote Workflow
+      url: "/sales/quote-workflow.html"
+    - label: Negotiating a Quote
+      url: "/sales/quote-price-negotiation.html"
+    - label: Example Quote
+      url: "/sales/quote-example.html"
+  - label: Orders
+    url: "/sales/orders.html"
+    children:
+    - label: Order Workspace
+      url: "/sales/orders-workspace.html"
+      children:
+      - label: Order Actions
+        url: "/sales/order-actions.html"
+      - label: Order Search
+        url: "/sales/orders-search.html"
+      - label: Grid Layout
+        url: "/sales/order-grid-layout.html"
+    - label: Order Workflow
+      url: "/sales/order-workflow.html"
+    - label: Processing an Order
+      url: "/sales/order-processing.html"
+    - label: Shipping an Order
+      url: "/sales/order-ship.html"
+    - label: Order Status
+      url: "/sales/order-status.html"
+      children:
+      - label: Order Status Workflow
+        url: "/sales/order-status-workflow.html"
+      - label: Custom Order Status
+        url: "/sales/order-status-custom.html"
+      - label: Order Status Notification
+        url: "/sales/order-status-notification.html"
+    - label: Allow Reorders
+      url: "/sales/reorders-allow.html"
+    - label: Scheduled Operations
+      url: "/sales/order-scheduled-operations.html"
+      children:
+      - label: Pending Payment Order Lifetime
+        url: "/sales/order-pending-payment-lifetime.html"
+      - label: Scheduled Grid Updates
+        url: "/sales/order-grid-updates-schedule.html"
+  - label: Invoices
+    url: "/sales/invoices.html"
+    children:
+    - label: Creating an Invoice
+      url: "/sales/invoice-create.html"
+    - label: Printing Invoices
+      url: "/sales/invoice-print.html"
+  - label: Shipments
+    url: "/sales/shipments.html"
+    children:
+    - label: Creating a Shipment
+      url: "/sales/shipments-create.html"
+    - label: Canceling a Shipment
+      url: "/sales/shipment-cancel.html"
+  - label: Credit Memos
+    url: "/sales/credit-memos.html"
+    children:
+    - label: Issuing a Credit Memo
+      url: "/sales/credit-memo-create.html"
+    - label: Printing Credit Memos
+      url: "/sales/credit-memo-print.html"
+  - label: Returns
+    url: "/sales/returns.html"
+    edition: ee-only
+    children:
+    - label: RMA Lifecycle
+      url: "/sales/rma-lifecycle.html"
+    - label: Customer Experience
+      url: "/sales/rma-customer-experience.html"
+    - label: Configuring Returns
+      url: "/sales/rma-configure.html"
+    - label: Returns Attribute
+      url: "/stores/attributes-returns.html"
+  - label: Billing Agreements
+    url: "/sales/billing-agreements.html"
+  - label: Transactions
+    url: "/sales/transactions.html"
+  - label: Archive
+    url: "/sales/order-archive.html"
+    edition: ee-only
+    children:
+    - label: Configuring the Archive
+      url: "/sales/order-archive-configure.html"
+- label: Payments
+  url: "/payment/payments.html"
+  children:
+  - label: PayPal Payment Solutions
+    url: "/payment/paypal.html"
+    children:
+      - label: PayPal Express Checkout
+        url: "/payment/paypal-express-checkout.html"
+      - label: PayPal Payments Advanced
+        url: "/payment/paypal-payments-advanced.html"
+      - label: PayPal Payments Pro
+        url: "/payment/paypal-payments-pro.html"
+      - label: PayPal Payments Standard
+        url: "/payment/paypal-payments-standard.html"
+      - label: PayPal Payflow Pro
+        url: "/payment/paypal-payflow-pro.html"
+      - label: PayPal Payflow Link
+        url: "/payment/paypal-payflow-link.html"
+      - label: PayPal Billing Agreements
+        url: "/payment/paypal-billing-agreements.html"
+      - label: PayPal Settlement Reports
+        url: "/payment/paypal-settlement-reports.html"
+      - label: PayPal Credit
+        url: "/payment/paypal-credit.html"
+      - label: PayPal Fraud Management Filter
+        url: "/payment/paypal-fraud-management-filter.html"
+      - label: PayPal by Country
+        url: "/payment/paypal-countries.html"
+  - label: Online Payment Methods
+    url: "/payment/online-payment-methods.html"
+    children:
+    - label: Braintree
+      url: "/payment/braintree.html"
+    - label: Klarna
+      url: "/payment/klarna.html"
+      children:
+      - label: Klarna Storefront Experience
+        url: "/payment/klarna-customer-experience.html"
+      - label: Setting Up Klarna
+        url: "/payment/klarna-setup.html"
+    - label: Amazon Pay
+      url: "/payment/amazon-pay.html"
+      children:
+      - label: Customer Experience
+        url: "/payment/amazon-pay-customer-experience.html"
+      - label: Setting Up Amazon Pay
+        url: "/payment/amazon-pay-setup.html"
+      - label: Managing Transactions
+        url: "/payment/amazon-pay-manage.html"
+  - label: Offline Payment Methods
+    url: "/payment/offline-payment-methods.html"
+    children:
+    - label: Check / Money Order
+      url: "/payment/check-money-order.html"
+    - label: Cash On Delivery
+      url: "/payment/cash-on-delivery.html"
+    - label: Payment on Account
+      url: "/payment/payment-on-account.html"
+      edition: b2b-only
+    - label: Bank Transfer
+      url: "/payment/bank-transfer.html"
+    - label: Purchase Order
+      url: "/payment/purchase-order.html"
+    - label: Zero Subtotal Checkout
+      url: "/payment/zero-subtotal-checkout.html"
+  - label: Fraud Protection
+    url: "/sales/fraud-protection.html"
+- label: Delivery
+  url: "/shipping/delivery.html"
+  children:
+  - label: Shipping Settings
+    url: "/shipping/shipping-settings.html"
+    children:
+    - label: Point of Origin
+      url: "/shipping/point-of-origin.html"
+    - label: Shipping Policy
+      url: "/shipping/shipping-policy-parameters.html"
+    - label: Multiple Addresses
+      url: "/shipping/shipping-multiaddress.html"
+  - label: Basic Delivery Methods
+    url: "/shipping/methods-basic.html"
+    children:
+    - label: Free Shipping
+      url: "/shipping/shipping-free.html"
+    - label: Flat Rate
+      url: "/shipping/shipping-flat-rate.html"
+    - label: Table Rates
+      url: "/shipping/shipping-table-rate.html"
+    - label: In-Store Delivery
+      url: "/shipping/shipping-in-store-delivery.html"
+    - label: Dimensional Weight
+      url: "/shipping/weight-dimensional.html"
+  - label: Shipping Carriers
+    url: "/shipping/carriers.html"
+    children:
+    - label: UPS
+      url: "/shipping/ups.html"
+    - label: USPS
+      url: "/shipping/usps.html"
+    - label: FedEx
+      url: "/shipping/fedex.html"
+    - label: DHL
+      url: "/shipping/dhl.html"
+  - label: Shipping Labels
+    url: "/shipping/shipping-labels.html"
+    children:
+    - label: Shipping Label Workflow
+      url: "/shipping/shipping-label-workflow.html"
+    - label: Configuring Shipping Labels
+      url: "/shipping/shipping-label-configure.html"
+    - label: Creating Shipping Labels
+      url: "/shipping/shipping-label-create.html"
+      children:
+      - label: Label Packages
+        url: "/shipping/shipping-label-package.html"

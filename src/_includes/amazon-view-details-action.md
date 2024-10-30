@@ -1,0 +1,2 @@
+
+- **View Details**: Choose to view listing details, including the [Listing Activity Log]({% link sales-channels/asc/product-listing-details.md %}#listing-activity-log), [Buy Box Competitor Pricing]({% link sales-channels/asc/product-listing-details.md %}#buy-box-competitor-pricing), and [Lowest Competitor Pricing]({% link sales-channels/asc/product-listing-details.md %}#lowest-competitor-pricing). This action is for viewing only. No changes can be made in the listing details. See [View Details]({% link sales-channels/asc/product-listing-details.md %}).
